@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Dashboard</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gradient-to-bl from-yellow-100 to-green-100">
+<div class="container mx-auto p-4">
+    <!-- Header -->
+    <header class="text-center mx-auto p-4">
+        <h1 class="text-3xl font-bold">Pokémon Dashboard</h1>
+    </header>
+
+    <form class="text-center mb-3">
+        <input type="text" placeholder="Type Pokémon" class="p-2 rounded bg-slate-700 shadow-lg placeholder-red-400 border border-red-500 ">
+        <label for="placeholder" ><button id="button" class="bg-blue-400 rounded p-2 shadow-lg text-blue-50">Search</button></label>
+    </form>
+    
+    <!-- Main Content -->
+    <main>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Pokémon Info Card -->
+            <div class="bg-purple-300 p-4 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold">Pokémon Name</h2>
+                <img src="" alt="Pokémon Sprite" class="w-full h-auto mb-4">
+                <div class="mb-2">
+                    <strong>HP:</strong> <span id="hp">---</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Attack:</strong> <span id="attack">---</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Defense:</strong> <span id="defense">---</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Speed:</strong> <span id="speed">---</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Type Effectiveness:</strong>
+                    <div id="type-effectiveness">---</div>
+                </div>
+                <div class="mb-2">
+                    <strong>Evolution Path:</strong>
+                    <div id="evolution-path">---</div>
+                </div>
+            </div>
+
+            <!-- Charts and Graphs -->
+            <div class="bg-white p-5 rounded-lg shadow-lg col-span-2">
+                <h2 class="text-xl font-semibold">Charts</h2>
+                <!-- Placeholder for charts -->
+                <div id="charts-placeholder" class="h-64s">
+                    <div>
+                        <canvas id="myChart" class="p-6 w-64s"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Abdule Dashboard</p>
+    </footer>
+
+    <!-- jQuery CDN | Chart.js-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
