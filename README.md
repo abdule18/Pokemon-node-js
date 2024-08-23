@@ -1,5 +1,3 @@
-# Pokemon-node.js
-
 ![Pokemon](https://user-images.githubusercontent.com/51619445/151736139-2c38e8a8-2c4f-4e22-9fc0-4c3bf3c27349.png)
 
 
@@ -34,7 +32,6 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 - Type Effectiveness: Shows the types associated with the Pokémon.
 - Evolution Path: Displays the full evolution chain of the Pokémon.
 - Dynamic Charts: A bar chart visualizes the Pokémon's stats.
-  
 ## Running the Pokémon Dashboard with PM2:
 
 -   git clone: https://github.com/abdule18/Pokemon-node.js.git
