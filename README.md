@@ -34,10 +34,14 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 - Type Effectiveness: Shows the types associated with the Pokémon.
 - Evolution Path: Displays the full evolution chain of the Pokémon.
 - Dynamic Charts: A bar chart visualizes the Pokémon's stats.
-## Acknowledgements:
+- 
+## Running the Pokémon Dashboard with PM2:
 
- Acknowledgements
+-   git clone: https://github.com/abdule18/Pokemon-node.js.git
+- cd Pokemon-node.js
 
-- PokéAPI: Special thanks to the [PokéAPI](https://pokeapi.co/) for providing the Pokémon data.
-- Node.js, Axios, Express, Tailwind CSS, Chart.js, and jQuery: For the powerful tools that made this project possible.
+- npm install
+- npm install pm2 -g
+- pm2 start server.js --name "pokemon-dashboard"
+- Access the Pokémon Dashboard: http://localhost:3000
 
