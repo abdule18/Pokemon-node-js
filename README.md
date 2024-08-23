@@ -7,13 +7,13 @@ Welcome to the Pokémon Dashboard! This project allows users to search for a Pok
 
 
 ## Technologies Used:
- - [Node.js](https://www.npmjs.com)
+ - [Node.js (v20.15.0)](https://www.npmjs.com)
  - [Axois](https://www.npmjs.com/package/axios)
  - [Tailwind.css](https://tailwindcss.com)
  - [Express](https://www.npmjs.com/package/express)
  - [Charts.js](https://www.chartjs.org)
  - [jQuery](https://jquery.com)
- - [PokéAPI](https://pokeapi.co/)
+ - [PokéAPI (v2)](https://pokeapi.co/)
 
 
 ## About This Project:
