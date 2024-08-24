@@ -35,7 +35,7 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 ## Running the Pokémon Dashboard with PM2:
 
 -   git clone: https://github.com/abdule18/Pokemon-node.js.git
-- cd Pokemon-node.js
+- cd Pokemon-node-js
 
 - npm install
 - npm install pm2 -g
@@ -44,7 +44,7 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 ## Running the Pokémon Dashboard Locally with Node.js:
 
 -   git clone: https://github.com/abdule18/Pokemon-node.js.git
-- cd Pokemon-node.js
+- cd Pokemon-node-js
 
 - npm install
 - node server.js
