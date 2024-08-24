@@ -34,7 +34,7 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 - Dynamic Charts: A bar chart visualizes the Pokémon's stats.
 ## Running the Pokémon Dashboard with PM2:
 
--   git clone: https://github.com/abdule18/Pokemon-node.js.git
+-   git clone: https://github.com/abdule18/Pokemon-node-js.git
 - cd Pokemon-node-js
 
 - npm install
@@ -43,7 +43,7 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 - Access the Pokémon Dashboard: http://localhost:3000
 ## Running the Pokémon Dashboard Locally with Node.js:
 
--   git clone: https://github.com/abdule18/Pokemon-node.js.git
+-   git clone: https://github.com/abdule18/Pokemon-node-js.git
 - cd Pokemon-node-js
 
 - npm install
