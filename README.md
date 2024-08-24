@@ -41,4 +41,12 @@ The Pokémon Dashboard is a web application that fetches data from the Pokémon 
 - npm install pm2 -g
 - pm2 start server.js --name "pokemon-dashboard"
 - Access the Pokémon Dashboard: http://localhost:3000
+## Running the Pokémon Dashboard Locally with Node.js:
+
+-   git clone: https://github.com/abdule18/Pokemon-node.js.git
+- cd Pokemon-node.js
+
+- npm install
+- node server.js
+- Access the Pokémon Dashboard: http://localhost:3000
 
