@@ -8,6 +8,7 @@ Welcome to the Pokémon Dashboard! This project allows users to search for a Pok
 
 ## Technologies Used:
  - [Node.js (v20.15.0)](https://www.npmjs.com)
+ - [Npm (v10.7.0)](https://www.npmjs.com)
  - [Axois](https://www.npmjs.com/package/axios)
  - [Tailwind.css](https://tailwindcss.com)
  - [Express](https://www.npmjs.com/package/express)
