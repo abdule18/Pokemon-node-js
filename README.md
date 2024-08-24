@@ -1,4 +1,3 @@
-![Pokemon](https://user-images.githubusercontent.com/51619445/151736139-2c38e8a8-2c4f-4e22-9fc0-4c3bf3c27349.png)
 ![Alt display](Pokemon-display.png)
 
 # Pokemon Dashboard:
